@@ -12,11 +12,11 @@ This repository documents the architecture and engineering patterns behind enter
 
 ## What's Here
 
-- **Architecture overviews** — how AI agents are orchestrated against live SAP systems (S/4HANA, ECC) via SAP BTP
-- **Integration patterns** — solving real-world platform constraints (e.g., structured data handling between SAP Build Process Automation and AI agent responses)
-- **Agent design examples** — patterns for building reusable AI agents for enterprise processes (data querying, analytics, migration automation)
-
-> Note: Code samples here are illustrative and sanitized — no client names, proprietary business logic, or credentials are included.
+- **[Architecture Documentation](docs/architecture.md)** — full system design 
+  covering agent orchestration, SAP BTP deployment, multi-agent patterns, 
+  and key integration patterns with SAP Joule and Build Process Automation
+- **[SAP OData Agent Component](components/sap_odata_agent_component.py)** — 
+  a reusable Langflow custom component for querying live SAP systems via OData
 
 ## Core Stack
 
